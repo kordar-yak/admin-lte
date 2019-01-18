@@ -17,5 +17,22 @@
         "psr-4": {
             "kordar\\yak\\lte\\": "src"
         }
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": true,
+            "asset-installer-paths": {
+                "bower-asset-library": "vendor/bower-asset"
+            },
+            "repositories":
+            {
+                "bower-asset/admin-lte":
+                {
+                    "type": "bower-vcs",
+                    "url": "https://github.com/almasaeed2010/AdminLTE.git"
+                }
+            }
+        }
     }
 }
